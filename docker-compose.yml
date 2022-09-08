@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+  service:
+    image: service
+    container_name: service
+    build:
+      context: .
+      dockerfile: Dockerfile

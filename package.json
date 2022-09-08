@@ -1,0 +1,19 @@
+{
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "synth": "cdk synth",
+    "deploy": "cdk deploy"
+  },
+  "devDependencies": {
+    "@types/node": "18.7.16",
+    "aws-cdk": "2.41.0",
+    "aws-cdk-lib": "2.41.0",
+    "constructs": "10.1.96",
+    "source-map-support": "^0.5.21",
+    "typescript": "^4.8.3",
+    "vite": "^3.1.0",
+    "vite-node": "^0.23.1"
+  }
+}
